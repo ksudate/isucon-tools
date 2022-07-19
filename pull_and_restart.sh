@@ -8,3 +8,4 @@ sudo systemctl restart nginx.service
 sudo systemctl restart mysql.service
 
 sudo truncate /var/log/nginx/access.log --size 0
+sudo truncate /var/log/mysql/slow.log --size 0
