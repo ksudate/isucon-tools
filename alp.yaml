@@ -1,0 +1,10 @@
+matching_groups:
+  - /api/condition/[a-z0-9-]+
+  - /isu/[a-z0-9-]+/condition$
+  - /api/isu/[a-z0-9-]+$
+  - /api/isu/[a-z0-9-]+/graph$
+  - /api/isu/[a-z0-9-]+/icon$
+  - /isu/[a-z0-9-]+/graph$
+  - /isu/[a-z0-9-]+$
+sort: avg
+reverse: true
